@@ -1,35 +1,48 @@
-// lambda_function.js
 const AWS = require('aws-sdk');
-const s3 = new AWS.S3();
+const { Client } = require('@opensearch-project/opensearch');
+
+const client = new Client({
+    node: process.env.OPENSEARCH_ENDPOINT,
+});
 
 exports.lambda_handler = async (event) => {
-    const bucketName = process.env.BUCKET_NAME; // Get the bucket name from environment variables
+    const searchQuery = event.queryStringParameters.query;
+
+    if (!searchQuery) {
+        return {
+            statusCode: 400,
+            body: JSON.stringify({
+                message: 'Search query is required',
+            }),
+        };
+    }
 
     try {
-        // Example of retrieving an object from S3 bucket (you can modify this as needed)
-        const params = {
-            Bucket: bucketName,
-            Key: 'example-file.txt' // Replace with the actual file name you want to access
-        };
+        const response = await client.search({
+            index: process.env.OPENSEARCH_INDEX,
+            body: {
+                query: {
+                    match: {
+                        _all: searchQuery,
+                    },
+                },
+            },
+        });
 
-        const data = await s3.getObject(params).promise();
-
-        // Return a successful response
         return {
             statusCode: 200,
             body: JSON.stringify({
-                message: `Successfully accessed the bucket: ${bucketName}`,
-                fileContent: data.Body.toString('utf-8'), // This will output the file content
+                message: 'Search successful',
+                results: response.body.hits.hits,
             }),
         };
     } catch (error) {
-        console.error('Error accessing S3:', error);
+        console.error('Error executing OpenSearch query:', error);
 
-        // Return an error response
         return {
             statusCode: 500,
             body: JSON.stringify({
-                message: `Failed to access the bucket: ${bucketName}`,
+                message: 'Failed to execute search query',
                 error: error.message,
             }),
         };
