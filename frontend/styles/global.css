@@ -1,32 +1,61 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family:
-    Inter,
-    -apple-system,
-    BlinkMacSystemFont,
-    Segoe UI,
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    Fira Sans,
-    Droid Sans,
-    Helvetica Neue,
-    sans-serif;
-}
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  h1 {
+    @apply text-5xl;
+  }
 
-* {
-  box-sizing: border-box;
-}
+  h2 {
+    @apply text-4xl;
+  }
 
-img {
-  max-width: 100%;
-  height: auto;
+  h3 {
+    @apply text-3xl;
+  }
+
+  h4 {
+    @apply text-2xl;
+  }
+
+  h5 {
+    @apply text-xl;
+  }
+
+  p, span {
+    @apply my-1.5;
+  }
+
+  button {
+    @apply bg-primary
+  }
+
+  .text-sm,
+  .text-base,
+  .text-xl {
+    @apply font-inter;
+    @apply font-normal;
+  }
+
+  .text-lg,
+  .text-2xl,
+  .text-3xl,
+  .text-4xl,
+  .text-5xl {
+    @apply font-comfortaa;
+    @apply font-bold;
+  }
+
+  .each-fade > div {
+    @apply w-full;
+    @apply h-screen;
+  }
+
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
 }

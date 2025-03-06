@@ -9,7 +9,7 @@ const usePageFind = () => {
         try {
           const importedPageFind = await import(
             // @ts-expect-error pagefind exists only on build
-            "./pagefind/pagefind.js"
+            /* webpackIgnore: true */ "./pagefind/pagefind.js"
           );
           await importedPageFind.options({
             highlightParam: "highlight",

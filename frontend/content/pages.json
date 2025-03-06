@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "solar-panels",
+    "title": "How Solar Panels Work",
+    "content": "Solar panels convert sunlight into electricity using photovoltaic cells...",
+    "keywords": ["solar energy", "renewable energy"]
+  },
+  {
+    "slug": "battery-storage",
+    "title": "Battery Storage Solutions",
+    "content": "Battery storage allows homeowners to store solar energy for use at night...",
+    "keywords": ["energy storage", "solar batteries"]
+  }
+]
