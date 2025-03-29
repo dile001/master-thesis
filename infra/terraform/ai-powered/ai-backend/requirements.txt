@@ -3,3 +3,5 @@ flask
 requests
 numpy
 dotenv
+mangum
+AWS4Auth

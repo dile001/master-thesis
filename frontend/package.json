@@ -2,11 +2,13 @@
   "private": true,
   "scripts": {
     "build": "next build",
+    "build:index": "node generate-index.js",
     "dev": "next dev",
     "start": "next start",
     "format": "prettier --write \"{pages,slugs,components,styles,translations,types,utils,__tests__}/**/*.{js,jsx,json,ts,tsx}\"",
     "format:check": "prettier --check \"{pages,slugs,components,styles,translations,types,utils,__tests__}/**/*.{js,jsx,json,ts,tsx}\"",
-    "pagefind:serve": "next build && npx pagefind --site out --output-path out/_next/static/chunks/pages/pagefind --serve"
+    "pagefind:serve": "next build && npx pagefind --site out --output-path out/_next/static/chunks/pages/pagefind --serve",
+    "pagefind:build": "next build && next export && npm run build:index && npx pagefind --site out --output-path out/_next/static/chunks/pages/pagefind"
   },
   "dependencies": {
     "@types/react": "^19.0.10",

@@ -19,5 +19,9 @@ def search_opensearch(query_vector):
         }
     }
 
-    response = requests.post(url, headers=headers, json=payload)
+    response = requests.post(
+        f"{OPENSEARCH_ENDPOINT}/{OPENSEARCH_INDEX}/_search",
+        headers={"Content-Type": "application/json"},
+        json=payload
+    )
     return response.json().get("hits", {}).get("hits", [])
