@@ -1,14 +1,302 @@
 [
   {
-    "slug": "solar-panels",
+    "slug": "how-solar-panels-work",
     "title": "How Solar Panels Work",
-    "content": "Solar panels convert sunlight into electricity using photovoltaic cells...",
-    "keywords": ["solar energy", "renewable energy"]
+    "content": "How Solar Panels Work - This article explains in detail about how solar panels work. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "energy efficiency",
+      "renewable energy",
+      "solar energy"
+    ]
   },
   {
-    "slug": "battery-storage",
+    "slug": "battery-storage-solutions",
     "title": "Battery Storage Solutions",
-    "content": "Battery storage allows homeowners to store solar energy for use at night...",
-    "keywords": ["energy storage", "solar batteries"]
+    "content": "Battery Storage Solutions - This article explains in detail about battery storage solutions. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "solar energy",
+      "energy storage",
+      "renewable energy"
+    ]
+  },
+  {
+    "slug": "solar-inverter-basics",
+    "title": "Solar Inverter Basics",
+    "content": "Solar Inverter Basics - This article explains in detail about solar inverter basics. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "photovoltaics",
+      "energy storage",
+      "energy efficiency"
+    ]
+  },
+  {
+    "slug": "benefits-of-renewable-energy",
+    "title": "Benefits of Renewable Energy",
+    "content": "Benefits of Renewable Energy - This article explains in detail about benefits of renewable energy. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "solar installation",
+      "net metering",
+      "energy storage"
+    ]
+  },
+  {
+    "slug": "how-to-install-solar-panels",
+    "title": "How to Install Solar Panels",
+    "content": "How to Install Solar Panels - This article explains in detail about how to install solar panels. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "energy storage",
+      "solar installation",
+      "clean energy"
+    ]
+  },
+  {
+    "slug": "top-solar-myths-debunked",
+    "title": "Top Solar Myths Debunked",
+    "content": "Top Solar Myths Debunked - This article explains in detail about top solar myths debunked. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "energy efficiency",
+      "photovoltaics",
+      "solar installation"
+    ]
+  },
+  {
+    "slug": "grid-tied-vs.-off-grid-systems",
+    "title": "Grid-Tied vs. Off-Grid Systems",
+    "content": "Grid-Tied vs. Off-Grid Systems - This article explains in detail about grid-tied vs. off-grid systems. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "renewable energy",
+      "solar energy",
+      "energy storage"
+    ]
+  },
+  {
+    "slug": "solar-maintenance-tips",
+    "title": "Solar Maintenance Tips",
+    "content": "Solar Maintenance Tips - This article explains in detail about solar maintenance tips. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "solar energy",
+      "photovoltaics",
+      "inverters"
+    ]
+  },
+  {
+    "slug": "understanding-solar-roi",
+    "title": "Understanding Solar ROI",
+    "content": "Understanding Solar ROI - This article explains in detail about understanding solar roi. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "renewable energy",
+      "net metering",
+      "solar installation"
+    ]
+  },
+  {
+    "slug": "how-net-metering-works",
+    "title": "How Net Metering Works",
+    "content": "How Net Metering Works - This article explains in detail about how net metering works. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "photovoltaics",
+      "solar energy",
+      "solar savings"
+    ]
+  },
+  {
+    "slug": "community-solar-projects",
+    "title": "Community Solar Projects",
+    "content": "Community Solar Projects - This article explains in detail about community solar projects. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "renewable energy",
+      "clean energy",
+      "solar energy"
+    ]
+  },
+  {
+    "slug": "choosing-the-right-inverter",
+    "title": "Choosing the Right Inverter",
+    "content": "Choosing the Right Inverter - This article explains in detail about choosing the right inverter. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "energy efficiency",
+      "clean energy",
+      "inverters"
+    ]
+  },
+  {
+    "slug": "best-solar-panels-of-2025",
+    "title": "Best Solar Panels of 2025",
+    "content": "Best Solar Panels of 2025 - This article explains in detail about best solar panels of 2025. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "inverters",
+      "energy storage",
+      "clean energy"
+    ]
+  },
+  {
+    "slug": "solar-for-apartments",
+    "title": "Solar for Apartments",
+    "content": "Solar for Apartments - This article explains in detail about solar for apartments. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "solar savings",
+      "clean energy",
+      "photovoltaics"
+    ]
+  },
+  {
+    "slug": "the-future-of-solar-technology",
+    "title": "The Future of Solar Technology",
+    "content": "The Future of Solar Technology - This article explains in detail about the future of solar technology. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "solar installation",
+      "renewable energy",
+      "clean energy"
+    ]
+  },
+  {
+    "slug": "tax-incentives-for-solar",
+    "title": "Tax Incentives for Solar",
+    "content": "Tax Incentives for Solar - This article explains in detail about tax incentives for solar. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "solar installation",
+      "inverters",
+      "photovoltaics"
+    ]
+  },
+  {
+    "slug": "solar-panel-efficiency-explained",
+    "title": "Solar Panel Efficiency Explained",
+    "content": "Solar Panel Efficiency Explained - This article explains in detail about solar panel efficiency explained. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "solar energy",
+      "net metering",
+      "renewable energy"
+    ]
+  },
+  {
+    "slug": "energy-independence-and-solar",
+    "title": "Energy Independence and Solar",
+    "content": "Energy Independence and Solar - This article explains in detail about energy independence and solar. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "energy storage",
+      "solar energy",
+      "renewable energy"
+    ]
+  },
+  {
+    "slug": "solar-power-in-winter",
+    "title": "Solar Power in Winter",
+    "content": "Solar Power in Winter - This article explains in detail about solar power in winter. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "solar energy",
+      "solar savings",
+      "energy efficiency"
+    ]
+  },
+  {
+    "slug": "solar-financing-options",
+    "title": "Solar Financing Options",
+    "content": "Solar Financing Options - This article explains in detail about solar financing options. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "energy storage",
+      "solar energy",
+      "net metering"
+    ]
+  },
+  {
+    "slug": "commercial-solar-installations",
+    "title": "Commercial Solar Installations",
+    "content": "Commercial Solar Installations - This article explains in detail about commercial solar installations. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "clean energy",
+      "solar installation",
+      "solar savings"
+    ]
+  },
+  {
+    "slug": "integrating-evs-with-solar",
+    "title": "Integrating EVs with Solar",
+    "content": "Integrating EVs with Solar - This article explains in detail about integrating evs with solar. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "renewable energy",
+      "clean energy",
+      "solar energy"
+    ]
+  },
+  {
+    "slug": "how-to-read-your-solar-bill",
+    "title": "How to Read Your Solar Bill",
+    "content": "How to Read Your Solar Bill - This article explains in detail about how to read your solar bill. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "energy efficiency",
+      "inverters",
+      "energy storage"
+    ]
+  },
+  {
+    "slug": "monitoring-solar-performance",
+    "title": "Monitoring Solar Performance",
+    "content": "Monitoring Solar Performance - This article explains in detail about monitoring solar performance. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "clean energy",
+      "inverters",
+      "energy storage"
+    ]
+  },
+  {
+    "slug": "common-solar-scams-to-avoid",
+    "title": "Common Solar Scams to Avoid",
+    "content": "Common Solar Scams to Avoid - This article explains in detail about common solar scams to avoid. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "renewable energy",
+      "energy efficiency",
+      "clean energy"
+    ]
+  },
+  {
+    "slug": "installing-solar-on-flat-roofs",
+    "title": "Installing Solar on Flat Roofs",
+    "content": "Installing Solar on Flat Roofs - This article explains in detail about installing solar on flat roofs. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "net metering",
+      "solar installation",
+      "energy storage"
+    ]
+  },
+  {
+    "slug": "portable-solar-systems",
+    "title": "Portable Solar Systems",
+    "content": "Portable Solar Systems - This article explains in detail about portable solar systems. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "solar savings",
+      "energy storage",
+      "solar installation"
+    ]
+  },
+  {
+    "slug": "what-affects-solar-output",
+    "title": "What Affects Solar Output?",
+    "content": "What Affects Solar Output? - This article explains in detail about what affects solar output?. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "solar energy",
+      "solar savings",
+      "energy efficiency"
+    ]
+  },
+  {
+    "slug": "cleaning-solar-panels-safely",
+    "title": "Cleaning Solar Panels Safely",
+    "content": "Cleaning Solar Panels Safely - This article explains in detail about cleaning solar panels safely. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "net metering",
+      "energy storage",
+      "inverters"
+    ]
+  },
+  {
+    "slug": "can-solar-work-in-cloudy-areas",
+    "title": "Can Solar Work in Cloudy Areas?",
+    "content": "Can Solar Work in Cloudy Areas? - This article explains in detail about can solar work in cloudy areas?. It's part of our ongoing guide to solar power and renewable energy adoption.",
+    "keywords": [
+      "net metering",
+      "inverters",
+      "photovoltaics"
+    ]
   }
 ]

@@ -11,12 +11,24 @@ export default function Page({ pageData }: { pageData: any }) {
   );
 }
 
-export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = pages.map((page) => ({ params: { slug: page.slug } }));
+export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
+  const paths: { params: { slug: string; }; locale: string; }[] = [];
+
+  for (const locale of locales || []) {
+    pages.forEach((page) => {
+      paths.push({
+        params: { slug: page.slug },
+        locale,
+      });
+    });
+  }
+
   return { paths, fallback: false };
 };
 
+
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const pageData = pages.find((page) => page.slug === params?.slug);
+  console.log("pageData",pageData);
   return { props: { pageData } };
 };
