@@ -15,8 +15,7 @@ auth = AWS4Auth(
     session_token=credentials.token
 )
 
-# A sample Titan-compatible vector (1536 floats)
-sample_vector = [0.01] * 1536  # Replace with actual embedding later
+sample_vector = [0.01] * 1536
 
 doc = {
     "title": "How Solar Panels Work",

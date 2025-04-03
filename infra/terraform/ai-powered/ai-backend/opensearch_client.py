@@ -12,7 +12,7 @@ def search_opensearch(query_vector):
             "knn": {
                 "vector_field": {
                     "vector": query_vector,
-                    "k": 5,  # Return top 5 results
+                    "k": 5,
                     "num_candidates": 50
                 }
             }
