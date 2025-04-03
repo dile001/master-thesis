@@ -16,7 +16,7 @@ export default function SearchBar() {
   const [isFocused, setIsFocused] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [apiUrl, setApiUrl] = useState<string>("");
-  const [variant, setVariant] = useState<string | null>(null); // 🔥
+  const [variant, setVariant] = useState<string | null>(null);
 
   useEffect(() => {
     const stored = localStorage.getItem("search_variant") as "1" | "2" | null;

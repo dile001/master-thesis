@@ -2,7 +2,6 @@ import requests
 from config import OPENSEARCH_ENDPOINT, OPENSEARCH_INDEX
 
 def search_opensearch(query_vector):
-    """Search OpenSearch Serverless using vector embeddings."""
     url = f"{OPENSEARCH_ENDPOINT}/{OPENSEARCH_INDEX}/_search"
 
     headers = {"Content-Type": "application/json"}
